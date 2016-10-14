@@ -1,0 +1,17 @@
+{
+    "name": "trinhnt/demo",
+    "description": "Creating first Composer/Packagist package",
+    "type": "demo",
+    "authors": [
+        {
+            "name": "Trinh NT",
+            "email": "trinhnt@gmail.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+        "psr-0": {
+            "EAS": "src/"
+        }
+    }
+}
